@@ -1,8 +1,8 @@
-x = "number odd or even"
-print(f"hello {x}")
 
-number = 2
+
+number = int(input("enter a number"))
 if number % 2:
-    print('even')
+    print('ODD')
 else:
-    print('odd')
+    print('EVEN')
+16
